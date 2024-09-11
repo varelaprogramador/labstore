@@ -4,137 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisa de satisfação - Labstore</title>
-    <style>
-        *{
-            font-family: 'inter',sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            gap: 25px;
-            justify-content: center;
-            align-items: center;
-        }
-       
-        main{
-            width: 100%;
-            display: flex;
-            justify-content: start;
-            align-items: center;
-            flex-direction: column;
-            min-height: calc(80vh - 25px);
-            padding-top: 25px;
-            
-        }
-        .faixa-cinza{
-            display: flex;
-            max-height: 50px;            
-            background-color: #ECEEF0;
-            justify-content: space-between;
-            align-items: center;
-            padding-right: 12px;
-            width: 80%;
-            min-width: 300px;
-            max-width: calc(80%-12px);
-        }
-        .content{
-            display: flex;
-            flex-direction: column;
-            padding-top: 25px;
-            width: 75%;
-            min-width: 200px;
-            max-width: 75%;
-            gap: 20px;
-            
-        }
-        .content p{
-            font-size: 1.4rem;
-            
-        }
-        .btn-call{
-            background-color: #00A19C;
-            border: none;
-            padding: 12px;
-            border-radius: 4px;
-            color: white;
-            font-weight: 600;
-        }
-        .text-faixa{
-            font-size: 1.05rem;
-        }
-        a,button{
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 1.05rem;
-
-        }
-        .footer {
-            background-color: #009892;
-            max-width: 1100px;
-            width: 100%;
-            display: flex;
-            padding: -0px;
-            align-items: start;
-            
-
-        }
-        .footer img{
-            opacity: 0.5;
-            max-height: 500px;
-            width: 100%;
-            max-width: 100%;
-        
-        }
-
-    </style>
+    <title>Pesquisa de Satisfação - Labstore</title>
 </head>
 
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+    <table align="center" width="100%" cellpadding="0" cellspacing="0" style="background-color: #f4f4f4; padding: 20px 0;">
+        <tr>
+            <td align="center">
+                <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; padding: 20px; border-radius: 5px;">
+                    <!-- Header -->
+                    <tr>
+                        <td align="left" style="background-color: #ECEEF0; padding: 12px;">
+                            <img src="./assets/logo.png" alt="Labstore Logo" style="max-width: 100px; vertical-align: middle;">
+                            <h1  style="display: inline-block; font-size: 18px; color: #333; margin-left: 15px;">| Pesquisa de Satisfação</h1>
+                        </td>
+                    </tr>
 
-<body>
-    <main>
-        
-        
-            <div class="faixa-cinza">
-           <img src="./assets/logo.svg">
+                    <!-- Main content -->
+                    <tr>
+                        <td style="padding: 20px;">
+                            <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                                Olá [Nome do Cliente],<br><br>
+                                Na LabStore, estamos sempre buscando aprimorar nossos serviços para oferecer a você a melhor experiência possível. Por isso, gostaríamos de saber a sua opinião!
+                                <br><br>
+                                Sua participação em nossa pesquisa de satisfação nos ajudará a entender melhor como podemos atender suas necessidades e superar suas expectativas.
+                                <br><br>
+                                Basta clicar no link abaixo para compartilhar suas ideias. 😊
+                            </p>
 
-                <h1 class="text-faixa">| Pesquisa de Satisfação</h1>
-                
-        </div>
-        <section class="content">
-            <p>Olá [Nome do Cliente],
-                <br/><br/>Na LabStore, estamos sempre buscando aprimorar  nossos serviços para oferecer a você a melhor  experiência possível. Por isso, gostaríamos de saber a sua opinião!
-                <br/><br/>Sua participação em nossa pesquisa de satisfação  nos ajudará a entender melhor como podemos  atender suas necessidades e superar  suas expectativas.
-                <br/><br/>Basta clicar no link abaixo para compartilhar suas ideias. 😊</p>
-                <a href="https://forms.ploomes.com/deal/8e995a5ba6c1412abd82c128cf8aade9">
-                <button class="btn-call">
-                    Responder Pesquisa
-                </button></a>
-                <p>Agradecemos desde já pela sua colaboração!
-                    <br/><br/>
-                    Atenciosamente,<br/>
-                    Equipe LabStore
-                    </p>
-                    <p>
-                        <a style="text-decoration: underline; color: black;" href="https://wa.me/5541988492428">📱 WhatsApp: (41) 98849-2428</a>
-                        <br/>
-                        <a style="text-decoration: underline; color: black;" href="https://mailto:vendas@labstore.com.br/">📧 vendas@labstore.com.br</a>
-                    </p>
-        </section>
+                            <table align="center" cellpadding="0" cellspacing="0" style="margin-top: 20px; margin-bottom: 20px;">
+                                <tr>
+                                    <td align="center">
+                                        <a href="https://forms.ploomes.com/deal/8e995a5ba6c1412abd82c128cf8aade9" style="background-color: #00A19C; color: #ffffff; padding: 12px 20px; font-size: 16px; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;">Responder Pesquisa</a>
+                                    </td>
+                                </tr>
+                            </table>
 
+                            <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                                Agradecemos desde já pela sua colaboração!<br><br>
+                                Atenciosamente,<br>
+                                Equipe LabStore
+                            </p>
 
+                            <p style="font-size: 14px; line-height: 1.6; color: #333;">
+                                <a href="https://wa.me/5541988492428" style="color: #333; text-decoration: underline;">📱 WhatsApp: (41) 98849-2428</a><br>
+                                <a href="mailto:vendas@labstore.com.br" style="color: #333; text-decoration: underline;">📧 vendas@labstore.com.br</a>
+                            </p>
+                        </td>
+                    </tr>
 
-    </main>
-    <div class="footer">
-        <!--imagem footer -->
-        <img src="./assets/footer-email.avif">
-    </div>
-
-
+                    <!-- Footer -->
+                    <tr>
+                        <td align="center" style="padding: 0; background-color: #00A19C;">
+                            <img src="https://labstore-ten.vercel.app/assets/footer-email.avif" alt="Footer Image" style="max-width: 100%; height: auto; opacity: 0.5;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
-
 
 </html>
